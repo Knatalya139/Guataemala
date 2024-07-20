@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guatemala</title>
+    <style>
+        .nav-image {
+            width: 250px;
+            height: 350px;
+            background-color: #ffa5d9;
+            border-radius: 150px;
+        }
+
+        .parent-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .box {
+            margin: 10px
+        }
+
+        body {
+            text-align: center;
+
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul {
+            width: 50%;
+            margin: auto;
+            list-style-type: '👑';
+        }
+
+        /* navbar css start  */
+        .grandparent-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* background-color: blue; */
+            padding: 10px;
+            background-color: white;
+        }
+
+        .aunt-box {
+            /* background-color: red; */
+            /* height: 100px; */
+            /* width: 100px; */
+            /* border-radius: 50px; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        .aunt-child1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            background-color: magenta;
+
+        }
+
+        .aunt-child2 {
+            /* width: 100px; */
+            height: 100px;
+            /* background-color: rgb(0, 255, 140); */
+            font-family: 'algerian';
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            margin-top: -17px;
+
+        }
+
+        .parent-box2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 600px;
+            /* background-color: yellow; */
+        }
+
+        .nav-image {
+            height: 70px;
+            width: 70px;
+
+        }
+
+        .child-box {
+            background-color: rgb(255, 213, 0);
+            border-radius: 20px;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .child-box {
+            background-color: skyblue;
+            color: black;
+            border-radius: 20px;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .child-box:hover {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            font-size: 30px;
+            transition: .5s ease;
+        }
+
+        /* navbar css end  */
+        .main-music-box {
+            height: 469px;
+            width: 100%;
+            /* background-color: black; */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .modern-music {
+
+            width: 50%;
+            background-color: skyblue;
+        }
+
+        .old-music {
+
+            width: 50%;
+            background-color: rgb(253, 180, 255);
+        }
+
+        pre {
+            text-align: left;
+            font-family: 'times Roman';
+        }
+
+        .old-music h4 {
+            text-align: center;
+        }
+
+        .modern-music pre {
+            text-align: left;
+            font-family: 'times Roman';
+        }
+
+        .modern-music h4 {
+            text-align: center;
+        }
+
+        .comparison-box {
+            padding: 20px;
+            background-color: aqua;
+            text-align: left;
+            width: 100%;
+        }
+
+        .summary-box {
+            padding: 10px;
+            background-color: rgb(0, 255, 123);
+            text-align: left;
+            width: 100%;
+        }
+
+        .comparison-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+        }
+
+        .text-comp {
+            width: 80%;
+            margin-left: 20px
+        }
+
+        .img-comp {
+            width: 20%;
+        }
+
+        .img-comp img {
+            width: 100%;
+        }
+
+        .summary-text {
+            width: 80%;
+        }
+        .summary-img {
+            width: 20%;
+        }
+        .summary-img img {
+            width: 100%;
+        }
+        .summary-box {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* 1. TO make a box visible you need to give it 3 properties 
+        - width ,
+        - height,
+        - background-color
+        2. Always give flex properties to the parent-box */
+    </style>
+</head>
+
+<body>
+    <!-- start navbar code here  -->
+    <div class="grandparent-box">
+        <div class="aunt-box">
+            <div class="aunt-child1">
+                <img class="nav-image"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/800px-Flag_of_Guatemala.svg.png"
+                    alt="">
+            </div>
+            <div class="aunt-child2">
+                Guatemala
+            </div>
+        </div>
+        <div class="parent-box2">
+            <a href="./index.html">
+                <div class="child-box">
+                    Home
+                </div>
+            </a>
+            <a href="./clothes.html">
+                <div class="child-box">
+                    Clothes
+                </div>
+            </a>
+            <a href="./food.html">
+                <div class="child-box">
+                    Food
+                </div>
+            </a>
+            <a href="./music.html">
+                <div class="child-box">
+                    Music
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- -- navbar ends here  -->
+    <div class="main-music-box">
+        <div class="modern-music">
+            <h4> Modern Music </h4>
+            <pre>
+   1. **Genres and Styles**:
+   - **Reggaeton and Urban Music**: Popular among the youth, characterized by its upbeat and danceable rhythms.
+   - **Rock and Alternative**: Includes a range of sub-genres, often blending traditional elements with contemporary sounds.
+   - **Pop**: Mainstream pop music influenced by global trends.
+   - **Folk Fusion**: Combines traditional melodies and instruments with modern music styles.
+
+2. **Instruments**:
+   - **Electric Guitar, Bass, and Drums**: Common in rock, pop, and urban music.
+   - **Synthesizers and Electronic Instruments**: Used in various genres to create modern sounds.
+   - **Traditional Instruments**: Sometimes incorporated into modern compositions to create a unique fusion.
+
+3. **Themes and Lyrics**:
+   - Often explore contemporary issues such as love, social justice, and personal experiences.
+   - Lyrics can be both in Spanish and indigenous languages, reflecting a blend of cultural influences.
+
+4. **Performance Context**:
+   - Performed in a variety of settings, including concerts, festivals, clubs, and online platforms.
+   - Music videos and digital media play a significant role in the promotion and distribution of modern music.
+
+
+            </pre>
+        </div>
+        <div class="old-music">
+            <h4> Traditional Music</h4>
+            <pre>
+
+    1. **Genres and Styles**:
+    - **Mayan Music**: Deeply rooted in the ancient Mayan civilization, this music uses traditional
+    instruments like the marimba, wooden flutes, drums, and the ocarina.
+    - **Garífuna Music**: Originating from the Afro-Caribbean Garífuna community, featuring rhythmic drums
+    and call-and-response vocals.
+    - **Marimba**: Considered the national instrument, it plays a central role in traditional music, often
+    performed at ceremonies and festivals.
+
+    2. **Instruments**:
+    - **Marimba**: A wooden percussion instrument, similar to a xylophone.
+    - **Tunkul**: A type of drum made from hollowed-out logs.
+    - **Chirimía**: A traditional wind instrument resembling a flute.
+
+    3. **Themes and Lyrics**:
+    - Often centered around nature, spirituality, and community life.
+    - Many songs are used in rituals and ceremonies, reflecting the importance of music in religious and
+    social contexts.
+
+    4. **Performance Context**:
+    - Typically performed during religious ceremonies, festivals, and community gatherings.
+    - Passed down through generations, maintaining traditional techniques and styles.
+
+            </pre>
+        </div>
+    </div>
+    <div class="comparison-box">
+        <div class="img-comp">
+            <img src="https://lh3.googleusercontent.com/proxy/5S6EW-1X3rUvyDnfCJ8XHZwdT1WHGfRg0TDPWh8BYoQVPB07D702SCP9QRZS9s57Fsfm35YkObjWOxWMmln5SOOv7mQ5NND2svIyRPcE5h0ABk7nkPeQ5HgJlOKgNnbmtIBzhdk"
+                alt="">
+        </div>
+        <div class="text-comp">
+            <h4> Comparison </h4>
+            <pre>
+ - **Instruments**: Traditional music relies on indigenous instruments, while modern music incorporates both traditional and contemporary .
+ - **Themes**: Traditional music focuses on cultural and spiritual themes, whereas modern music often addresses a broader range of contemporary .
+ - **Performance**: Traditional music is typically performed in communal and ceremonial settings, while modern music is more commercially oriented 
+    and performed in diverse venues.
+ - **Evolution**: Traditional music has been preserved and passed down through generations, maintaining its original form, while modern music is 
+     constantly evolving and influenced by global trends.
+ 
+        </pre>
+        </div>
+
+
+    </div>
+    <div class="summary-box">
+         <div class="summary-text">
+        <h4> Summary </h4>
+        <p>
+ Guatemalan music, both traditional and modern, reflects the country's rich cultural heritage and dynamic contemporary influences. Traditional music
+  includes genres such as Mayan,
+ Garífuna, and marimba music, using instruments like the marimba, tunkul, and chirimía. These styles focus on themes of nature, spirituality, and
+  community life, performed in 
+ communal and ceremonial settings. Traditional music is deeply rooted in the country's history, preserving its cultural identity through
+  generations.
+ <br> <br>
+ In contrast, modern music in Guatemala blends traditional elements with contemporary genres like reggaeton, rock, pop, and folk fusion.
+  Modern instruments such as electric guitars, 
+ drums, and synthesizers are often used alongside traditional ones. Themes in modern music explore contemporary issues such as love and 
+ social justice, reaching a broader audience 
+ through concerts, festivals, and digital platforms. Despite these differences, modern artists frequently draw inspiration from traditional
+  sounds, creating innovative music that
+  honors the past while engaging with the present.
+        </p>
+       </div>
+       <div class="summary-img"><img src="https://i0.wp.com/blog.enjoyguatemala.com/wp-content/uploads/2020/07/guatemala-1426126_1280.jpg?resize=1280%2C853&ssl=1" alt=""></div>
+      
+
+    </div>
+</body>
