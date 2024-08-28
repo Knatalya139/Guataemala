@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guatemala</title>
+    <title>Music | Guatemala</title>
     <style>
         .nav-image {
             width: 250px;
@@ -116,7 +116,7 @@
 
         /* navbar css end  */
         .main-music-box {
-            height: 469px;
+            /* height: 469px; */
             width: 100%;
             /* background-color: black; */
             display: flex;
@@ -125,14 +125,21 @@
 
         .modern-music {
 
-            width: 50%;
-            background-color: skyblue;
+
+            width: 49%;
+            background-color: #c0edff;
+            border-radius: 50px;
+            box-shadow: 0px 0px 30px 3px #1fd1ff;
+            margin-bottom: 30px;
         }
 
         .old-music {
 
-            width: 50%;
-            background-color: rgb(253, 180, 255);
+            width: 49%;
+            background-color: rgb(239, 177, 255);
+            border-radius: 50px;
+            box-shadow: 6px -4px 30px 3px rgb(204, 0, 255);
+            margin-bottom: 30px;
         }
 
         pre {
@@ -155,25 +162,35 @@
 
         .comparison-box {
             padding: 20px;
-            background-color: aqua;
+            background-color: rgb(255, 185, 255);
             text-align: left;
-            width: 100%;
-        }
-
-        .summary-box {
-            padding: 10px;
-            background-color: rgb(0, 255, 123);
-            text-align: left;
-            width: 100%;
-        }
-
-        .comparison-box {
+            width: 96%;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 30px 3px magenta;
+            border-radius: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
-
+            width: 96%
         }
+
+        .summary-box {
+            padding: 20px;
+            background-color: rgb(161, 255, 161);
+            text-align: left;
+            width: 96%;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 30px 3px green;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 96%
+        }
+
+
 
         .text-comp {
             width: 80%;
@@ -191,23 +208,183 @@
         .summary-text {
             width: 80%;
         }
+
         .summary-img {
             width: 20%;
         }
+
         .summary-img img {
             width: 100%;
         }
+
         .summary-box {
             flex-direction: row;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        /* 1. TO make a box visible you need to give it 3 properties 
-        - width ,
-        - height,
-        - background-color
-        2. Always give flex properties to the parent-box */
+
+        @media only screen and (max-width:500px) {
+            .grandparent-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* background-color: blue; */
+                padding: 10px;
+                background-color: white;
+            }
+
+            .aunt-child2 {
+                /* width: 100px; */
+                height: 100px;
+                /* background-color: rgb(0, 255, 140); */
+                font-family: 'algerian';
+                font-size: 40px;
+                display: flex;
+                align-items: center;
+                margin-left: 15px;
+                margin-top: -17px;
+
+
+            }
+
+            .parent-box2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100%;
+                /* background-color: yellow; */
+            }
+
+            .grandparent-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* background-color: blue; */
+                padding: 10px;
+                background-color: white;
+            }
+
+            .aunt-child2 {
+                /* width: 100px; */
+                height: 100px;
+                /* background-color: rgb(0, 255, 140); */
+                font-family: 'algerian';
+                font-size: 40px;
+                display: flex;
+                align-items: center;
+                margin-left: 15px;
+                margin-top: -17px;
+
+
+            }
+
+            .parent-box2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100%;
+                /* background-color: yellow; */
+
+            }
+
+
+            /* navbar css end  */
+            .main-music-box {
+                /* height: 469px; */
+                width: 100%;
+                /* background-color: black; */
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+
+            pre {
+                text-wrap: wrap;
+            }
+
+            .modern-music {
+
+
+                width: 90%;
+                background-color: #c0edff;
+                border-radius: 50px;
+                box-shadow: 0px 0px 30px 3px #1fd1ff;
+                margin-bottom: 30px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+
+            .old-music {
+
+                width: 90%;
+                background-color: rgb(239, 177, 255);
+                border-radius: 50px;
+                box-shadow: 6px -4px 30px 3px rgb(204, 0, 255);
+                margin-bottom: 30px;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+
+            .comparison-box {
+            padding: 20px;
+            background-color: rgb(255, 185, 255);
+            text-align: left;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 30px 3px magenta;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            flex-direction:column ;
+            margin-bottom: 30px;
+        }
+
+        .summary-box {
+            padding: 20px;
+            background-color: rgb(161, 255, 161);
+            text-align: left;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 30px 3px green;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+            
+        }
+        .img-comp{
+            /* make width as 100% */
+            width: 100%;
+            border-radius: 40%;
+        }
+
+        .img-comp img{
+            /* add border-radius of 40px  */
+            width: 100%;
+            border-radius: 40px;
+        }
+
+        .summary-img {
+            width: 100%;
+        }
+
+        .summary-img img {
+            width: 100%;
+            border-radius: 40px;
+        }
+
+
+
+        }
     </style>
 </head>
 
@@ -254,7 +431,8 @@
             <pre>
    1. **Genres and Styles**:
    - **Reggaeton and Urban Music**: Popular among the youth, characterized by its upbeat and danceable rhythms.
-   - **Rock and Alternative**: Includes a range of sub-genres, often blending traditional elements with contemporary sounds.
+   - **Rock and Alternative**: Includes a range of sub-genres, often blending traditional elements with
+    contemporary sounds.
    - **Pop**: Mainstream pop music influenced by global trends.
    - **Folk Fusion**: Combines traditional melodies and instruments with modern music styles.
 
@@ -324,27 +502,35 @@
 
     </div>
     <div class="summary-box">
-         <div class="summary-text">
-        <h4> Summary </h4>
-        <p>
- Guatemalan music, both traditional and modern, reflects the country's rich cultural heritage and dynamic contemporary influences. Traditional music
-  includes genres such as Mayan,
- Garífuna, and marimba music, using instruments like the marimba, tunkul, and chirimía. These styles focus on themes of nature, spirituality, and
-  community life, performed in 
- communal and ceremonial settings. Traditional music is deeply rooted in the country's history, preserving its cultural identity through
-  generations.
- <br> <br>
- In contrast, modern music in Guatemala blends traditional elements with contemporary genres like reggaeton, rock, pop, and folk fusion.
-  Modern instruments such as electric guitars, 
- drums, and synthesizers are often used alongside traditional ones. Themes in modern music explore contemporary issues such as love and 
- social justice, reaching a broader audience 
- through concerts, festivals, and digital platforms. Despite these differences, modern artists frequently draw inspiration from traditional
-  sounds, creating innovative music that
-  honors the past while engaging with the present.
-        </p>
-       </div>
-       <div class="summary-img"><img src="https://i0.wp.com/blog.enjoyguatemala.com/wp-content/uploads/2020/07/guatemala-1426126_1280.jpg?resize=1280%2C853&ssl=1" alt=""></div>
-      
+        <div class="summary-text">
+            <h4> Summary </h4>
+            <p>
+                Guatemalan music, both traditional and modern, reflects the country's rich cultural heritage and dynamic
+                contemporary influences. Traditional music
+                includes genres such as Mayan,
+                Garífuna, and marimba music, using instruments like the marimba, tunkul, and chirimía. These styles
+                focus on themes of nature, spirituality, and
+                community life, performed in
+                communal and ceremonial settings. Traditional music is deeply rooted in the country's history,
+                preserving its cultural identity through
+                generations.
+                <br> <br>
+                In contrast, modern music in Guatemala blends traditional elements with contemporary genres like
+                reggaeton, rock, pop, and folk fusion.
+                Modern instruments such as electric guitars,
+                drums, and synthesizers are often used alongside traditional ones. Themes in modern music explore
+                contemporary issues such as love and
+                social justice, reaching a broader audience
+                through concerts, festivals, and digital platforms. Despite these differences, modern artists frequently
+                draw inspiration from traditional
+                sounds, creating innovative music that
+                honors the past while engaging with the present.
+            </p>
+        </div>
+        <div class="summary-img"><img
+                src="https://i0.wp.com/blog.enjoyguatemala.com/wp-content/uploads/2020/07/guatemala-1426126_1280.jpg?resize=1280%2C853&ssl=1"
+                alt=""></div>
+
 
     </div>
 </body>
